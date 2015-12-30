@@ -1,5 +1,7 @@
 FROM gitlab/gitlab-runner:latest
 
+EXPOSE 8000
+
 # Preserve runner's data
 VOLUME ["/etc/gitlab-runner", "/home/gitlab-runner"]
 
